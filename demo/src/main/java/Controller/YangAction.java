@@ -11,6 +11,8 @@ public class YangAction {
         YangService yangService = new YangServiceImpl();
 
         yangService.getString();
+
+        System.out.println("查看分支代码");
     }
 
 
